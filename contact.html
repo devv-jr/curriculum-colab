@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Curriculum Colab</title>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a href="/">Inicio</a>
+      <a href="/about.html">Sobre mí</a>
+      <a href="/experience.html">Experiencia</a>
+      <a href="/projects.html">Proyectos</a>
+      <a href="/contact.html" class="active">Contacto</a>
+    </nav>
+    
+    <main class="page-content">
+      <section class="hero-section">
+        <h1>Contacto</h1>
+        <p class="subtitle">¡Hablemos!</p>
+      </section>
+      
+      <section class="content-section">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h2>Información de contacto</h2>
+            <p>📧 tu-email@ejemplo.com</p>
+            <p>📱 +34 123 456 789</p>
+            <p>🔗 linkedin.com/in/tu-perfil</p>
+            <p>🐙 github.com/tu-usuario</p>
+          </div>
+          
+          <form class="contact-form" id="contactForm">
+            <h2>Envíame un mensaje</h2>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu email" required>
+            <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    
+    <script type="module" src="/src/contact.js"></script>
+  </body>
+</html>
